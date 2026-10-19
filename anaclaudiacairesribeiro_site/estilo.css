@@ -1,0 +1,256 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8E7;
+    color: #2B2118;
+}
+
+.container {
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#topo {
+    background-color: #31572C;
+    color: #FFFFFF;
+    padding: 0;
+    position: relative;
+}
+
+#menu-topo ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    list-style: none;
+}
+
+#menu-topo a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+#menu-topo a:hover {
+    color: #D9A441;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.cabecalho h1 img {
+    width: 330px;
+    height: auto;
+    
+}
+
+.botao1 {
+    display: inline-block;
+    background-color: #C62828;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 12px 18px;
+}
+
+#menu-topo a.botao1:hover {
+    background-color: #D9A441;
+    color: #2B2118;
+}
+
+.banner {
+    background-color: #311B0C;
+    color: #FFFFFF;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    min-height: 400px;
+}
+
+.banner img {
+    width: 360px;
+    height: auto;
+}
+
+.texto-banner h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.texto-banner p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.botao2 {
+    display: inline-block;
+    background-color: #FFF8E7;
+    color: #31572C;
+    text-decoration: none;
+    padding: 12px 24px;
+    border: 2.5px solid #31572C;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botao2:hover {
+    background-color: #31572C;
+    color: #FFF8E7;
+}
+
+#cardapio {
+    padding: 35px 0 60px;
+}
+
+.cabecalho-cardapio h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.cabecalho-cardapio p {
+    font-size: 14px;
+}
+
+.cabecalho-cardapio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.botao3 {
+    display: inline-block;
+    background-color: #31572C;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.botao3:hover {
+    background-color: #FFF8E7;
+    color: #31572C;
+    border: 2.5px solid #31572C;
+    border-radius: 5px;
+}
+
+.sabores {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.sabores article {
+    background-color: #D6D2C8;
+    padding: 0 0 20px;
+    border-radius: 10px;
+    text-align: left;
+    border: 2px solid #805246;
+}
+
+.sabores article img {
+    width: 100%;
+    height: auto;
+}
+
+.sabores article h3 {
+    margin: 15px 12px 8px;
+}
+
+.sabores article > p {
+    margin: 0 12px 8px;
+}
+
+.preco-pedido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 12px 0;
+}
+
+.preco-pedido p {
+    margin: 0;
+}
+
+.preco-pedido .botao4 {
+    display: inline-block;
+    background-color: #C62828;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.preco-pedido .botao4:hover {
+    background-color: #D9A441;
+    color: #2B2118;
+}
+
+#promocoes {
+    background-color: #31572C;
+    color: #FFFFFF;
+    padding: 10px 0;
+}
+
+.conteudo-promocao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;;
+}
+
+.texto-promocao {
+    flex: 1;
+}
+
+.imagens-promocao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.pizza-menor {
+    width: 240px;
+    height: auto;
+}
+
+.pizza-maior {
+    width: 320px;
+    height: auto;
+}
+
+.selo-promocao {
+    background-color: #2B2118;
+    color:#D9A441;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2.5px solid #D9A441;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
